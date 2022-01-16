@@ -1,0 +1,169 @@
+Root Certificate loading from Device...OK
+-----BEGIN CERTIFICATE-----
+MIIB8TCCAZegAwIBAgIQd9NtlW7IrmIF5Y46y5hagTAKBggqhkjOPQQDAjBPMSEw
+HwYDVQQKDBhNaWNyb2NoaXAgVGVjaG5vbG9neSBJbmMxKjAoBgNVBAMMIUNyeXB0
+byBBdXRoZW50aWNhdGlvbiBSb290IENBIDAwMjAgFw0xODExMDgxOTEyMTlaGA8y
+MDU4MTEwODE5MTIxOVowTzEhMB8GA1UECgwYTWljcm9jaGlwIFRlY2hub2xvZ3kg
+SW5jMSowKAYDVQQDDCFDcnlwdG8gQXV0aGVudGljYXRpb24gUm9vdCBDQSAwMDIw
+WTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS9VOZt44dUhABrU64VgNUKoGnnit9V
+eNhc4tVN1bgwKWv/3W5vclb72Z7xoRaxHTOtSRA6oYWHOdz65DfhnWNOo1MwUTAd
+BgNVHQ4EFgQUeu19bca3eJ2yOAGl6EqMsKQOKowwHwYDVR0jBBgwFoAUeu19bca3
+eJ2yOAGl6EqMsKQOKowwDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQQDAgNIADBF
+AiEAodxjRZDsgZ7h3luBEmVRrdTCxPjllSgu4EvnaOx8AnMCID5rp06eTArWjCSw
++y7nk9LmvpRlyhXQ6lvIf1V5mVyt
+-----END CERTIFICATE-----
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            77:d3:6d:95:6e:c8:ae:62:05:e5:8e:3a:cb:98:5a:81
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: O=Microchip Technology Inc, CN=Crypto Authentication Root CA 002
+        Validity
+            Not Before: Nov  8 19:12:19 2018 GMT
+            Not After : Nov  8 19:12:19 2058 GMT
+        Subject: O=Microchip Technology Inc, CN=Crypto Authentication Root CA 002
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:bd:54:e6:6d:e3:87:54:84:00:6b:53:ae:15:80:
+                    d5:0a:a0:69:e7:8a:df:55:78:d8:5c:e2:d5:4d:d5:
+                    b8:30:29:6b:ff:dd:6e:6f:72:56:fb:d9:9e:f1:a1:
+                    16:b1:1d:33:ad:49:10:3a:a1:85:87:39:dc:fa:e4:
+                    37:e1:9d:63:4e
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                7A:ED:7D:6D:C6:B7:78:9D:B2:38:01:A5:E8:4A:8C:B0:A4:0E:2A:8C
+            X509v3 Authority Key Identifier: 
+                keyid:7A:ED:7D:6D:C6:B7:78:9D:B2:38:01:A5:E8:4A:8C:B0:A4:0E:2A:8C
+
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+    Signature Algorithm: ecdsa-with-SHA256
+         30:45:02:21:00:a1:dc:63:45:90:ec:81:9e:e1:de:5b:81:12:
+         65:51:ad:d4:c2:c4:f8:e5:95:28:2e:e0:4b:e7:68:ec:7c:02:
+         73:02:20:3e:6b:a7:4e:9e:4c:0a:d6:8c:24:b0:fb:2e:e7:93:
+         d2:e6:be:94:65:ca:15:d0:ea:5b:c8:7f:55:79:99:5c:ad
+
+
+Validate Root Certificate...OK
+------------------------------------------------------
+Signer Certificate loading from Device...OK
+-----BEGIN CERTIFICATE-----
+MIICAzCCAaqgAwIBAgIQabnUb8RmGmND9b0TrN7bSzAKBggqhkjOPQQDAjBPMSEw
+HwYDVQQKDBhNaWNyb2NoaXAgVGVjaG5vbG9neSBJbmMxKjAoBgNVBAMMIUNyeXB0
+byBBdXRoZW50aWNhdGlvbiBSb290IENBIDAwMjAgFw0xODEyMTQxOTAwMDBaGA8y
+MDQ5MTIxNDE5MDAwMFowTzEhMB8GA1UECgwYTWljcm9jaGlwIFRlY2hub2xvZ3kg
+SW5jMSowKAYDVQQDDCFDcnlwdG8gQXV0aGVudGljYXRpb24gU2lnbmVyIEY2NjAw
+WTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQLPrB+QRWyuP52logC0/wtyowdyIG8
+CSSFLICFZCcf5nFhz8j93kgl8hwL+F09QeWfEsWOiw1iydVb+kjVZpOko2YwZDAO
+BgNVHQ8BAf8EBAMCAYYwEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUnaZs
++cgye6gRuq4+dCI6LEnlJBIwHwYDVR0jBBgwFoAUeu19bca3eJ2yOAGl6EqMsKQO
+KowwCgYIKoZIzj0EAwIDRwAwRAIgRqZWqLg0Pa/syIrTEs1eOzDP+SdX8sB1Lffr
+uKVZzUECIGGVv8b4yrykl0JZUWNJ3d44ictdPpdpoImvq53lyQ7R
+-----END CERTIFICATE-----
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            69:b9:d4:6f:c4:66:1a:63:43:f5:bd:13:ac:de:db:4b
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: O=Microchip Technology Inc, CN=Crypto Authentication Root CA 002
+        Validity
+            Not Before: Dec 14 19:00:00 2018 GMT
+            Not After : Dec 14 19:00:00 2049 GMT
+        Subject: O=Microchip Technology Inc, CN=Crypto Authentication Signer F660
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:0b:3e:b0:7e:41:15:b2:b8:fe:76:96:88:02:d3:
+                    fc:2d:ca:8c:1d:c8:81:bc:09:24:85:2c:80:85:64:
+                    27:1f:e6:71:61:cf:c8:fd:de:48:25:f2:1c:0b:f8:
+                    5d:3d:41:e5:9f:12:c5:8e:8b:0d:62:c9:d5:5b:fa:
+                    48:d5:66:93:a4
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 Subject Key Identifier: 
+                9D:A6:6C:F9:C8:32:7B:A8:11:BA:AE:3E:74:22:3A:2C:49:E5:24:12
+            X509v3 Authority Key Identifier: 
+                keyid:7A:ED:7D:6D:C6:B7:78:9D:B2:38:01:A5:E8:4A:8C:B0:A4:0E:2A:8C
+
+    Signature Algorithm: ecdsa-with-SHA256
+         30:44:02:20:46:a6:56:a8:b8:34:3d:af:ec:c8:8a:d3:12:cd:
+         5e:3b:30:cf:f9:27:57:f2:c0:75:2d:f7:eb:b8:a5:59:cd:41:
+         02:20:61:95:bf:c6:f8:ca:bc:a4:97:42:59:51:63:49:dd:de:
+         38:89:cb:5d:3e:97:69:a0:89:af:ab:9d:e5:c9:0e:d1
+
+
+Validate Signer Certificate...OK
+------------------------------------------------------
+Device Certificate loading from Device...OK
+-----BEGIN CERTIFICATE-----
+MIIB9DCCAZugAwIBAgIQfgqAMwYzoBS084AgNHFNjTAKBggqhkjOPQQDAjBPMSEw
+HwYDVQQKDBhNaWNyb2NoaXAgVGVjaG5vbG9neSBJbmMxKjAoBgNVBAMMIUNyeXB0
+byBBdXRoZW50aWNhdGlvbiBTaWduZXIgRjY2MDAgFw0xOTA3MzEyMTAwMDBaGA8y
+MDQ3MDczMTIxMDAwMFowRjEhMB8GA1UECgwYTWljcm9jaGlwIFRlY2hub2xvZ3kg
+SW5jMSEwHwYDVQQDDBgwMTIzNTQ1QzNGMDZCNEEzMDEgQVRFQ0MwWTATBgcqhkjO
+PQIBBggqhkjOPQMBBwNCAATWfrAscpKAKTQiQComauSW/yqx1YJrefSwa5tkMdVB
+gP9uTixfwJ0rBPheUmMW/2+IF/BYr/4LP5px/XuoD3wso2AwXjAMBgNVHRMBAf8E
+AjAAMA4GA1UdDwEB/wQEAwIDiDAdBgNVHQ4EFgQUQHo8Xm2LmPAYZ80YQvUWDfDk
+qsUwHwYDVR0jBBgwFoAUnaZs+cgye6gRuq4+dCI6LEnlJBIwCgYIKoZIzj0EAwID
+RwAwRAIgQq1NZOKTsym7C7GJw1zmiFLnvR7rN6xcSYKGm7vk1fMCIDYDqXPL53FO
+ISRuTr2Lh1MXIJc5CReBA3Ti0z9d3dDz
+-----END CERTIFICATE-----
+
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            7e:0a:80:33:06:33:a0:14:b4:f3:80:20:34:71:4d:8d
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: O=Microchip Technology Inc, CN=Crypto Authentication Signer F660
+        Validity
+            Not Before: Jul 31 21:00:00 2019 GMT
+            Not After : Jul 31 21:00:00 2047 GMT
+        Subject: O=Microchip Technology Inc, CN=0123545C3F06B4A301 ATECC
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:d6:7e:b0:2c:72:92:80:29:34:22:40:2a:26:6a:
+                    e4:96:ff:2a:b1:d5:82:6b:79:f4:b0:6b:9b:64:31:
+                    d5:41:80:ff:6e:4e:2c:5f:c0:9d:2b:04:f8:5e:52:
+                    63:16:ff:6f:88:17:f0:58:af:fe:0b:3f:9a:71:fd:
+                    7b:a8:0f:7c:2c
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Key Agreement
+            X509v3 Subject Key Identifier: 
+                40:7A:3C:5E:6D:8B:98:F0:18:67:CD:18:42:F5:16:0D:F0:E4:AA:C5
+            X509v3 Authority Key Identifier: 
+                keyid:9D:A6:6C:F9:C8:32:7B:A8:11:BA:AE:3E:74:22:3A:2C:49:E5:24:12
+
+    Signature Algorithm: ecdsa-with-SHA256
+         30:44:02:20:42:ad:4d:64:e2:93:b3:29:bb:0b:b1:89:c3:5c:
+         e6:88:52:e7:bd:1e:eb:37:ac:5c:49:82:86:9b:bb:e4:d5:f3:
+         02:20:36:03:a9:73:cb:e7:71:4e:21:24:6e:4e:bd:8b:87:53:
+         17:20:97:39:09:17:81:03:74:e2:d3:3f:5d:dd:d0:f3
+
+
+Validate Device Certificate...OK
+------------------------------------------------------
+--------------------------------------------
+Generating manifest data...OK (saved to TNGTLS_devices_manifest.json)
+--------------------------------------------

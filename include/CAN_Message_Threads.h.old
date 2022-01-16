@@ -1,0 +1,40 @@
+#ifndef CAN_MESSAGE_THREADS_H
+#define CAN_MESSAGE_THREADS_H
+#include <Thread.h>
+#include <ThreadController.h>
+#ifdef __cplusplus
+ extern "C" {
+#endif
+void send_can_messages(CAN_message_t txmsg, uint8_t can_channel);
+int setupPeriodicCANMessage();
+void setupComponentInfo();
+void reloadCAN();
+void goCAN();
+#ifdef __cplusplus
+}
+#endif
+class CanThread: public Thread
+{
+  public:
+    uint32_t stop_after_count;
+    uint32_t transmit_number = 0;
+    boolean ok_to_send = true;
+    uint32_t loop_cycles = 0;
+    uint32_t cycle_count = 0;
+    uint32_t tx_period = 0;
+    uint8_t channel = 0;
+
+    CAN_message_t txmsg;
+
+    uint8_t num_messages = 1;
+    uint8_t message_index = 0;
+    uint8_t len_list[256] = {};
+    uint8_t message_list[256][8] = {};
+    uint32_t id_list[256] = {};
+
+
+    bool shouldRun(unsigned long time);
+    void run();
+};
+
+#endif
