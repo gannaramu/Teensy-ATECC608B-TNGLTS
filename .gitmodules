@@ -1,0 +1,6 @@
+[submodule "lib/cryptoauthlib"]
+	path = lib/cryptoauthlib
+	url = https://github.com/MicrochipTech/cryptoauthlib.git
+[submodule "lib/ArduinoECCX08"]
+	path = lib/ArduinoECCX08
+	url = https://github.com/arduino-libraries/ArduinoECCX08.git
